@@ -1,7 +1,7 @@
 #imclude "monty.h"
 /**
  * f_rotl - Rotates the stack to the top
- * @head: Stack head 
+ * @head: Stack head
  * @counter: line_number
  * Return: No return
  */
