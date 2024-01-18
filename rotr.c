@@ -19,7 +19,7 @@ void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
 		copy = copy->next;
 	}
 	copy->next = *head;
-	copy->prev-next = NULL;
+	copy->prev->next = NULL;
 	copy->prev = NULL;
 	(*head)->prev = copy;
 	(*head) = copy;
