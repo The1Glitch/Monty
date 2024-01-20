@@ -1,5 +1,6 @@
 #include "monty.h"
-#include "stdlib.h"
+#include <stdlib.h>
+#include <stdio>
 
 /**
  * main - Monty code interpreter
