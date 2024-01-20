@@ -24,8 +24,8 @@ int main(int argc, char *argv[])
 	bus.file = file;
 	if (!file)
 	{
-		fprintf(stderr, "Error: Can't open file %s\n"argv[1];
-				exit(EXIT_FAILURE);
+		fprintf(stderr, "Error: Can't open file %s\n", argv[1]);
+		exit(EXIT_FAILURE);
 	}
 	while (read_line > 0)
 	{
