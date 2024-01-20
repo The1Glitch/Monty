@@ -1,4 +1,4 @@
-#imclude "monty.h"
+#include "monty.h"
 /**
  * f_rotl - Rotates the stack to the top
  * @head: Stack head
