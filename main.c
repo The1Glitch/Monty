@@ -1,6 +1,6 @@
 #include "monty.h"
 #include <stdlib.h>
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Monty code interpreter
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	while (read_line > 0)
 	{
 		content = NULL;
-		read_line = getline(&content, &size, file);
+		read_line = fgets(&content, &size, file);
 		bus.content = content;
 		counter++;
 		if (read_line > 0)
